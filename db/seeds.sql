@@ -1,6 +1,6 @@
 USE company_db
 
-INSERT INTO departments (department_name)
+INSERT INTO departments (name)
 VALUES 
     ('IT'),
     ('Human Resources'),
@@ -9,7 +9,7 @@ VALUES
     ('Operations');
     -- ('Legal');
 
-INSERT INTO roles (role_title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES
     ('PMO', 80000, 1),
     ('IT Support', 95000, 1),
@@ -20,18 +20,18 @@ VALUES
     ('Product Dev Manager', 160000, 3),
     ('Sales Support', 65000, 4),
     ('Customer Advocate', 80000, 4),
-    ('Operations Analyst', 55000, 5);
+    ('Operations Analyst', 55000, 5),
     ('Operations Officer', 100000, 5);
-    -- ('Legal Admin', 60000, 6);
+    -- ('Legal Admin', 60000, 6),
     -- ('Corporate Councel', 110000, 6);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Angela', 'Bennett', 5, 2),
     ('Boris', 'Brown', 7, null),
+    ('Eddie', 'Vedder', 11, null),
+    ('George', 'Harrison', 9, null),
+    ('Angela', 'Bennett', 5, 2),
     ('Charles', 'Johnson', 5, 2),
     ('Donna', 'Smirnoff', 6, 2),
-    ('Eddie', 'Vedder', 11, null),
-    ('Frances', 'Bean', 10, 5),
-    ('George', 'Harrison', 9, null),
-    ('Heather', 'Mills', 8, 7);
+    ('Frances', 'Bean', 10, 1),
+    ('Heather', 'Mills', 8, 3);

@@ -1,7 +1,12 @@
-const questions = require('./main/lib/questions');
+// const questions = require('./main/lib/questions');
 const inquirer = require('inquirer');
 const cTable = require('console.table');
-const db 
+const Queries = require('./queries')
+
+// new object of class Queries
+const q = new Queries();
+q.viewDepartments();
+
 
 // I am presented with the following options: 
 // view all departments,
