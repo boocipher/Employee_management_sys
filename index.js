@@ -1,11 +1,17 @@
-// const questions = require('./main/lib/questions');
+const questions = require('./lib/questions');
 const inquirer = require('inquirer');
 const cTable = require('console.table');
-const Queries = require('./queries')
+const Queries = require('./lib/queries')
 
 // new object of class Queries
 const q = new Queries();
-q.viewDepartments();
+// q.viewDepartments();
+
+function init() {
+    inquirer.prompt(questions)
+}
+
+init();
 
 
 // I am presented with the following options: 
