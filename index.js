@@ -5,7 +5,7 @@ const Queries = require('./lib/queries')
 
 // new object of class Queries
 const q = new Queries();
-// q.viewDepartments();
+q.viewDepartments();
 
 function init() {
     inquirer.prompt(questions)
