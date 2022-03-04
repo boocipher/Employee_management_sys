@@ -55,7 +55,7 @@ Finally, to invoke the application run <br>
 ```node index.js```
 <br>
 <br>
-For further help on how to set up and run the application, you can also refer to the walkthrough video [here](https://drive.google.com/file/d/1Nm_7dt990-qWQ8R7IFH8eWxFNQHAGQvo/view?usp=sharing).<br>
+For further help on how to set up and run the application, you can also refer to the walkthrough video [here](https://drive.google.com/file/d/1cTy20CDCCrRcZ23E3zVtongOgvThAr6I/view?usp=sharing).<br>
 <br>
 
 
